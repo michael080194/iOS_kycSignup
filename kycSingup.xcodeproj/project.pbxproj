@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C5407182739066000B19636 /* actionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5407172739066000B19636 /* actionList.swift */; };
+		6C54071A27390B3F00B19636 /* signupshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C54071927390B3F00B19636 /* signupshow.swift */; };
+		6C54071E273B371000B19636 /* actionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C54071D273B371000B19636 /* actionDetail.swift */; };
+		6CBCCCB8273BA770008D2A46 /* signupformTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBCCCB7273BA770008D2A46 /* signupformTest.swift */; };
+		6CBCCCBA273BA963008D2A46 /* signupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBCCCB9273BA963008D2A46 /* signupForm.swift */; };
+		6CBCCCBE27428E0D008D2A46 /* signupMyRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBCCCBD27428E0D008D2A46 /* signupMyRecord.swift */; };
+		6CF629952738A8520006C234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629942738A8520006C234 /* AppDelegate.swift */; };
+		6CF629972738A8520006C234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629962738A8520006C234 /* SceneDelegate.swift */; };
+		6CF629992738A8520006C234 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629982738A8520006C234 /* Main.swift */; };
+		6CF6299B2738A8540006C234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF6299A2738A8540006C234 /* Assets.xcassets */; };
+		6CF6299E2738A8540006C234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF6299D2738A8540006C234 /* Preview Assets.xcassets */; };
+		6CF629A12738A8540006C234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF6299F2738A8540006C234 /* LaunchScreen.storyboard */; };
+		6CF629B22738AA540006C234 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629A92738AA540006C234 /* AppState.swift */; };
+		6CF629B32738AA540006C234 /* Develop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629AA2738AA540006C234 /* Develop.swift */; };
+		6CF629B42738AA540006C234 /* KycTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629AB2738AA540006C234 /* KycTool.swift */; };
+		6CF629B52738AA540006C234 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629AC2738AA540006C234 /* ErrorView.swift */; };
+		6CF629B62738AA540006C234 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629AE2738AA540006C234 /* MainMenu.swift */; };
+		6CF629B72738AA540006C234 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629AF2738AA540006C234 /* Login.swift */; };
+		6CF629B82738AA540006C234 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629B02738AA540006C234 /* Setting.swift */; };
+		6CF629B92738AA540006C234 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF629B12738AA540006C234 /* About.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C5407172739066000B19636 /* actionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionList.swift; sourceTree = "<group>"; };
+		6C54071927390B3F00B19636 /* signupshow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupshow.swift; sourceTree = "<group>"; };
+		6C54071D273B371000B19636 /* actionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionDetail.swift; sourceTree = "<group>"; };
+		6CBCCCB7273BA770008D2A46 /* signupformTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupformTest.swift; sourceTree = "<group>"; };
+		6CBCCCB9273BA963008D2A46 /* signupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupForm.swift; sourceTree = "<group>"; };
+		6CBCCCBD27428E0D008D2A46 /* signupMyRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupMyRecord.swift; sourceTree = "<group>"; };
+		6CF629912738A8520006C234 /* 報名系統.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "報名系統.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF629942738A8520006C234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CF629962738A8520006C234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CF629982738A8520006C234 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		6CF6299A2738A8540006C234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CF6299D2738A8540006C234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CF629A02738A8540006C234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CF629A22738A8540006C234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF629A92738AA540006C234 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		6CF629AA2738AA540006C234 /* Develop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Develop.swift; sourceTree = "<group>"; };
+		6CF629AB2738AA540006C234 /* KycTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KycTool.swift; sourceTree = "<group>"; };
+		6CF629AC2738AA540006C234 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		6CF629AE2738AA540006C234 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		6CF629AF2738AA540006C234 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		6CF629B02738AA540006C234 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		6CF629B12738AA540006C234 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CF6298E2738A8520006C234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C540716273904F500B19636 /* Singup */ = {
+			isa = PBXGroup;
+			children = (
+				6C5407172739066000B19636 /* actionList.swift */,
+				6C54071D273B371000B19636 /* actionDetail.swift */,
+				6C54071927390B3F00B19636 /* signupshow.swift */,
+				6CBCCCB7273BA770008D2A46 /* signupformTest.swift */,
+				6CBCCCB9273BA963008D2A46 /* signupForm.swift */,
+				6CBCCCBD27428E0D008D2A46 /* signupMyRecord.swift */,
+			);
+			path = Singup;
+			sourceTree = "<group>";
+		};
+		6CF629882738A8520006C234 = {
+			isa = PBXGroup;
+			children = (
+				6CF629932738A8520006C234 /* kycSingup */,
+				6CF629922738A8520006C234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CF629922738A8520006C234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CF629912738A8520006C234 /* 報名系統.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CF629932738A8520006C234 /* kycSingup */ = {
+			isa = PBXGroup;
+			children = (
+				6C540716273904F500B19636 /* Singup */,
+				6CF629A82738AA540006C234 /* Utility */,
+				6CF629AD2738AA540006C234 /* Home */,
+				6CF629942738A8520006C234 /* AppDelegate.swift */,
+				6CF629962738A8520006C234 /* SceneDelegate.swift */,
+				6CF629982738A8520006C234 /* Main.swift */,
+				6CF6299A2738A8540006C234 /* Assets.xcassets */,
+				6CF6299F2738A8540006C234 /* LaunchScreen.storyboard */,
+				6CF629A22738A8540006C234 /* Info.plist */,
+				6CF6299C2738A8540006C234 /* Preview Content */,
+			);
+			path = kycSingup;
+			sourceTree = "<group>";
+		};
+		6CF6299C2738A8540006C234 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CF6299D2738A8540006C234 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CF629A82738AA540006C234 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6CF629A92738AA540006C234 /* AppState.swift */,
+				6CF629AA2738AA540006C234 /* Develop.swift */,
+				6CF629AB2738AA540006C234 /* KycTool.swift */,
+				6CF629AC2738AA540006C234 /* ErrorView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6CF629AD2738AA540006C234 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6CF629AE2738AA540006C234 /* MainMenu.swift */,
+				6CF629AF2738AA540006C234 /* Login.swift */,
+				6CF629B02738AA540006C234 /* Setting.swift */,
+				6CF629B12738AA540006C234 /* About.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CF629902738A8520006C234 /* kycSingup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF629A52738A8540006C234 /* Build configuration list for PBXNativeTarget "kycSingup" */;
+			buildPhases = (
+				6CF6298D2738A8520006C234 /* Sources */,
+				6CF6298E2738A8520006C234 /* Frameworks */,
+				6CF6298F2738A8520006C234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kycSingup;
+			productName = kycSingup;
+			productReference = 6CF629912738A8520006C234 /* 報名系統.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CF629892738A8520006C234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6CF629902738A8520006C234 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6CF6298C2738A8520006C234 /* Build configuration list for PBXProject "kycSingup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CF629882738A8520006C234;
+			productRefGroup = 6CF629922738A8520006C234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CF629902738A8520006C234 /* kycSingup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CF6298F2738A8520006C234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF629A12738A8540006C234 /* LaunchScreen.storyboard in Resources */,
+				6CF6299E2738A8540006C234 /* Preview Assets.xcassets in Resources */,
+				6CF6299B2738A8540006C234 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CF6298D2738A8520006C234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF629B82738AA540006C234 /* Setting.swift in Sources */,
+				6CF629B32738AA540006C234 /* Develop.swift in Sources */,
+				6CF629B92738AA540006C234 /* About.swift in Sources */,
+				6CF629952738A8520006C234 /* AppDelegate.swift in Sources */,
+				6CBCCCBA273BA963008D2A46 /* signupForm.swift in Sources */,
+				6CF629972738A8520006C234 /* SceneDelegate.swift in Sources */,
+				6CF629B62738AA540006C234 /* MainMenu.swift in Sources */,
+				6C54071A27390B3F00B19636 /* signupshow.swift in Sources */,
+				6CF629992738A8520006C234 /* Main.swift in Sources */,
+				6CF629B52738AA540006C234 /* ErrorView.swift in Sources */,
+				6CBCCCB8273BA770008D2A46 /* signupformTest.swift in Sources */,
+				6CF629B72738AA540006C234 /* Login.swift in Sources */,
+				6CBCCCBE27428E0D008D2A46 /* signupMyRecord.swift in Sources */,
+				6C5407182739066000B19636 /* actionList.swift in Sources */,
+				6CF629B22738AA540006C234 /* AppState.swift in Sources */,
+				6C54071E273B371000B19636 /* actionDetail.swift in Sources */,
+				6CF629B42738AA540006C234 /* KycTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CF6299F2738A8540006C234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF629A02738A8540006C234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CF629A32738A8540006C234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CF629A42738A8540006C234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CF629A62738A8540006C234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"kycSingup/Preview Content\"";
+				DEVELOPMENT_TEAM = 2KCJ8H6T7N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = kycSingup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyc168.kycSingup;
+				PRODUCT_NAME = "報名系統";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CF629A72738A8540006C234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"kycSingup/Preview Content\"";
+				DEVELOPMENT_TEAM = 2KCJ8H6T7N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = kycSingup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyc168.kycSingup;
+				PRODUCT_NAME = "報名系統";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CF6298C2738A8520006C234 /* Build configuration list for PBXProject "kycSingup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF629A32738A8540006C234 /* Debug */,
+				6CF629A42738A8540006C234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF629A52738A8540006C234 /* Build configuration list for PBXNativeTarget "kycSingup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF629A62738A8540006C234 /* Debug */,
+				6CF629A72738A8540006C234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CF629892738A8520006C234 /* Project object */;
+}
